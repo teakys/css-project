@@ -1,0 +1,52 @@
+:root {
+  --font: 'Roboto', sans-serif;  
+  --dark-bg: #1F2937;
+  --font-color: #F9FAF8;
+  --secondary-font-color: #E5E7EB; 
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+  font-family: var(--font);
+  list-style-type: none;
+}
+
+body {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.body-container {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+}
+
+header {
+  background-color: var(--dark-bg);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px;
+}
+
+.header-logo {
+  color: var(--font-color);
+  font-size: 24px;
+}
+
+.header-link-list {
+  display: flex;
+  gap: 16px;
+}
+
+.header-link-list a {
+  text-decoration: none;
+  color: var(--secondary-font-color);
+  font-size: 18px;
+}
+
+
